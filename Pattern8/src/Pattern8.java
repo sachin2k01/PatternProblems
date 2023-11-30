@@ -7,7 +7,8 @@ public class Pattern8
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the Row Size");
         int n=sc.nextInt();
-        for (int i=1;i<=n;i++) {
+        for (int i=1;i<=n;i++)
+        {
             for (int j = 1; j <= n - i; j++)
             {
                 System.out.print(" ");
