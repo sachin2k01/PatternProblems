@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Pattern7
 {
     public static void main(String[] args) {
@@ -8,7 +7,7 @@ public class Pattern7
         int r=sc.nextInt();
         for (int i=1;i<=r;i++)
         {
-            for (int k=1;k<=i;k++)
+            for (int k=1;k<i;k++)
             {
                 System.out.print(" ");
             }
